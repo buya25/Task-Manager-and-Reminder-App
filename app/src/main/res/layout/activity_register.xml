@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:orientation="horizontal"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -28,6 +29,8 @@
         android:layout_height="0dp"
         android:background="@color/white"
         android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +46,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
 
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="match_parent"
@@ -56,6 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="username"
+                android:background="@color/material_dynamic_neutral70"
                 android:textColorHint="@color/black"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
 
@@ -64,7 +69,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
 
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="match_parent"
@@ -78,6 +84,7 @@
                 android:layout_height="wrap_content"
                 android:hint="password"
                 android:inputType="textPassword"
+                android:background="@color/material_dynamic_neutral70"
                 android:textColorHint="@color/black"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
 
@@ -86,7 +93,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
 
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="match_parent"
@@ -100,6 +108,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Repeat password"
                 android:inputType="textPassword"
+                android:background="@color/material_dynamic_neutral70"
                 android:textColorHint="@color/black"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
 
